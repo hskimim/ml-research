@@ -2,12 +2,13 @@
 
 ### 1. Introduction
 
-However, in the case of metric learning learning, since the learning time is relatively longer than that of the classification task, the efficiency of the learning itself is lowered.
+Metric learning is a method of learning metrics and has shown effective representation learning performance.
+
+However, since the learning time is relatively longer than that of the classification task, the efficiency of the learning itself is lowered.
+For this reason, there was a question "What are the unique advantages of the metric learning technique in representation learning, and why does it have to be metric learning?"
 
 Accordingly, we visually check through visualization what kind of embedding cluster the toy data learned according to classification and metric learning form, and in which cases metric learning can be more effective than classification.
-
 For reference, the experiment is based on text data, and the experimental results may be different for the image area or other areas.
-
 And, I'm not going to check performance with accuracy or precision etc for this experiments. It might be further research, but not main interests. 
 
 ### 2. Dataset
