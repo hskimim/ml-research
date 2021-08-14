@@ -1,6 +1,12 @@
 # Research
 
 It is a free research record about things that you have questions about or want to experiment with while reading the thesis personally.
-The goal is to upload one every 1 to 2 weeks.
+___________________________
 
-1. [Metric Learning vs Classification](https://github.com/hskimim/research/tree/master/20210627, "20210627")
+### Research Note
+[Metric Learning vs Classification](https://github.com/hskimim/research/20210627, "20210627")
+
+____________________________
+
+### Practice
+[Data iterator for Language Modeling](https://github.com/hskimim/research/20210815, "20210815")
