@@ -2,7 +2,7 @@
 
 ### 1. Introduction & Motivation
 
-Looking at the paper ["Learning to Genearte Reviews and Discovering Sentiment[1]"](https://arxiv.org/abs/1704.01444), 
+Looking at the paper ["Learning to Generate Reviews and Discovering Sentiment[1]"](https://arxiv.org/abs/1704.01444), 
 it is said that there is a single unit that distinguishes sentiment among the sentence vectors generated through language modeling.
 If you look at the [github implementation](https://github.com/openai/generating-reviews-discovering-sentiment/blob/master/sst_binary_demo.py#L19), you can see that the 2388th unit serves as a feature that distinguishes positive and negative review data along with the image attached to the paper.
 
@@ -111,7 +111,8 @@ The sentimental axis could also be found here, and the results according to the 
 
 <img src="src/ae.png" alt="drawing" width="400">
 
-### 6.2. Is there sentimental feature within word embedding?
+### 6.2. Can it distinguish positive and negative?
+Unfortunately not. 
 Overall embeddings couldn't distinguish positive and negative sentiment words. I think that it is from characteristics of word embedding  that it is not good at antonyms.
 
 # 10. Conclusion
