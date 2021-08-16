@@ -5,6 +5,7 @@ ___________________________
 
 ### Research Note
 [Metric Learning vs Classification](https://github.com/hskimim/research/20210627, "20210627")
+[Discover sentiment from word embedding](https://github.com/hskimim/research/20210816, "20210816")
 
 ____________________________
 
