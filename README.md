@@ -4,11 +4,11 @@ It is a free research record about things that you have questions about or want 
 ___________________________
 
 ### Research Note
-[Metric Learning vs Classification](https://github.com/hskimim/research/20210627, "20210627")
+[Metric Learning vs Classification](https://github.com/hskimim/research/tree/master/20210627)
 
-[Discover sentiment from word embedding](https://github.com/hskimim/research/20210816, "20210816")
+[Discover sentiment from word embedding](https://github.com/hskimim/research/tree/master/20210816)
 
 ____________________________
 
 ### Practice
-[Data iterator for Language Modeling](https://github.com/hskimim/research/20210815, "20210815")
+[Data iterator for Language Modeling](https://github.com/hskimim/research/tree/master/20210815)
