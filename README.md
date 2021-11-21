@@ -8,6 +8,8 @@ ___________________________
 
 [Discover sentiment from word embedding](https://github.com/hskimim/research/tree/master/20210816)
 
+[Model Calibration for good probability](https://github.com/hskimim/ml-research/tree/master/20211107)
+
 ____________________________
 
 ### Practice
