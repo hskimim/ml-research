@@ -2,4 +2,4 @@
 .ipynb_checkpoints/
 models
 data
-
+__pycache__
