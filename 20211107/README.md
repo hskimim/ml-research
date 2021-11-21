@@ -23,10 +23,15 @@ The calibration error is the measured difference between the predicted probabili
  and the ratio of class 1 data among them is 0.6, then 0.1 is the calibration loss.
 
 0. Expected Calibration Error (ECE)
+
 <img src="src/ece.png" alt="drawing" width="700">
+
 1. Max Calibration Error (MCE)
+
 <img src="src/mce.png" alt="drawing" width="700">
+
 2. Adaptive Calibration Error (ACE)
+
 <img src="src/ace.png" alt="drawing" width="700">
 
 ### 4. Results
@@ -38,17 +43,21 @@ For reference, the model training was conducted for about 20 epochs due to resou
  of the interpretation of the results.
 
 **model options**
+
 <img src="src/model%20options.png" alt="drawing" width="700">
 
 Below are the values ​​for each batch of performance indicators visualized with tensorboard. Since hyperparameter tuning was not performed, it is a validation dataset, but it can be regarded as a test dataset. Looking at the calibration loss plot at the bottom, it can be seen that mix-up and focal loss show relatively good calibration performance, and focal loss dominates overall.
 
 **validation accuracy**
+
 <img src="src/valid%20acc.png" alt="drawing" width="700">
 
 **validation loss**
+
 <img src="src/valid%20loss.png" alt="drawing" width="700">
 
 **classwise-ECE**
+
 <img src="src/classwise-ece.png" alt="drawing" width="700">
 
 In the above plot, we only see classwise-ECE (umean/umax in the legend below) where the predicted probability is binned by 0.1, so it is together with classwise-ACE (meaning qmean/qmax in the legend below) taking into account the distribution of the predicted probability. saw. In addition, to use the sigmoid scaling discussed in Part 2, a validation dataset was used, and accordingly, the performance indicators below are through the test dataset.
@@ -60,4 +69,5 @@ In the validation dataset above, the use of focal loss was the best, but in the 
 Overall, the use of a methodology called effective for calibration always results in better calibration performance than if it were not.
 
 **Overall performance**
+
 <img src="src/test%20performance.png" alt="drawing" width="700">
