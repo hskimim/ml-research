@@ -24,15 +24,15 @@ The calibration error is the measured difference between the predicted probabili
 
 0. Expected Calibration Error (ECE)
 
-<img src="src/ece.png" alt="drawing" width="700">
+<img src="src/ece.png" alt="drawing" width="200">
 
 1. Max Calibration Error (MCE)
 
-<img src="src/mce.png" alt="drawing" width="700">
+<img src="src/mce.png" alt="drawing" width="200">
 
 2. Adaptive Calibration Error (ACE)
 
-<img src="src/ace.png" alt="drawing" width="700">
+<img src="src/ace.png" alt="drawing" width="200">
 
 ### 4. Results
 If you want to check the results in detail, please check the results with opening the tensorboard using  the command ```tensorboard --logdir=runs``` 
@@ -44,7 +44,7 @@ For reference, the model training was conducted for about 20 epochs due to resou
 
 **model options**
 
-<img src="src/model%20options.png" alt="drawing" width="700">
+<img src="src/model%20options.png" alt="drawing" width="400">
 
 Below are the values ​​for each batch of performance indicators visualized with tensorboard. Since hyperparameter tuning was not performed, it is a validation dataset, but it can be regarded as a test dataset. Looking at the calibration loss plot at the bottom, it can be seen that mix-up and focal loss show relatively good calibration performance, and focal loss dominates overall.
 
